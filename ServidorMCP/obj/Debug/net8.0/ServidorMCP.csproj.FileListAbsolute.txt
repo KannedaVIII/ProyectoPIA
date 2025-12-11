@@ -1,0 +1,14 @@
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\bin\Debug\net8.0\ServidorMCP.exe
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\bin\Debug\net8.0\ServidorMCP.deps.json
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\bin\Debug\net8.0\ServidorMCP.runtimeconfig.json
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\bin\Debug\net8.0\ServidorMCP.dll
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\bin\Debug\net8.0\ServidorMCP.pdb
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\obj\Debug\net8.0\ServidorMCP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\obj\Debug\net8.0\ServidorMCP.AssemblyInfoInputs.cache
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\obj\Debug\net8.0\ServidorMCP.AssemblyInfo.cs
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\obj\Debug\net8.0\ServidorMCP.csproj.CoreCompileInputs.cache
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\obj\Debug\net8.0\ServidorMCP.dll
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\obj\Debug\net8.0\refint\ServidorMCP.dll
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\obj\Debug\net8.0\ServidorMCP.pdb
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\obj\Debug\net8.0\ServidorMCP.genruntimeconfig.cache
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_1.5\ServidorMCP\obj\Debug\net8.0\ref\ServidorMCP.dll

@@ -1,0 +1,73 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = InterfazMAUI
+build_property.ProjectDir = C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/izand/OneDrive/Escritorio/ProyectoPIA_IzanDelgado_WPF_2.0/InterfazMAUI/AddJuego.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InterfazMAUI.AddJuego.xaml
+build_metadata.AdditionalFiles.TargetPath = AddJuego.xaml
+build_metadata.AdditionalFiles.RelativePath = AddJuego.xaml
+
+[C:/Users/izand/OneDrive/Escritorio/ProyectoPIA_IzanDelgado_WPF_2.0/InterfazMAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InterfazMAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/izand/OneDrive/Escritorio/ProyectoPIA_IzanDelgado_WPF_2.0/InterfazMAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InterfazMAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/izand/OneDrive/Escritorio/ProyectoPIA_IzanDelgado_WPF_2.0/InterfazMAUI/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InterfazMAUI.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
+[C:/Users/izand/OneDrive/Escritorio/ProyectoPIA_IzanDelgado_WPF_2.0/InterfazMAUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InterfazMAUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/izand/OneDrive/Escritorio/ProyectoPIA_IzanDelgado_WPF_2.0/InterfazMAUI/ModJuego.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InterfazMAUI.ModJuego.xaml
+build_metadata.AdditionalFiles.TargetPath = ModJuego.xaml
+build_metadata.AdditionalFiles.RelativePath = ModJuego.xaml
+
+[C:/Users/izand/OneDrive/Escritorio/ProyectoPIA_IzanDelgado_WPF_2.0/InterfazMAUI/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InterfazMAUI.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = Register.xaml
+build_metadata.AdditionalFiles.RelativePath = Register.xaml
+
+[C:/Users/izand/OneDrive/Escritorio/ProyectoPIA_IzanDelgado_WPF_2.0/InterfazMAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InterfazMAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/izand/OneDrive/Escritorio/ProyectoPIA_IzanDelgado_WPF_2.0/InterfazMAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InterfazMAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InterfazMAUI.AddJuego" 
+             Title="Nuevo Videojuego"
+             BackgroundColor="#F0F0F0">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30">
+
+            <Label Text="Añadir Nuevo Juego"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="#333"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,10"/>
+
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Título:" TextColor="#555" FontAttributes="Bold"/>
+                <Entry x:Name="txtTitulo" Placeholder="Ej. Elden Ring" BackgroundColor="White" TextColor="Black"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Género:" TextColor="#555" FontAttributes="Bold"/>
+                <Entry x:Name="txtGenero" Placeholder="Ej. RPG" BackgroundColor="White" TextColor="Black"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Fecha de Salida:" TextColor="#555" FontAttributes="Bold"/>
+                <DatePicker x:Name="dpFecha" BackgroundColor="White" TextColor="Black"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Equipo / Desarrollador:" TextColor="#555" FontAttributes="Bold"/>
+                <Entry x:Name="txtEquipo" Placeholder="Ej. FromSoftware" BackgroundColor="White" TextColor="Black"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Rating (0 - 5):" TextColor="#555" FontAttributes="Bold"/>
+                <Entry x:Name="txtRating" Placeholder="Ej. 5.0" Keyboard="Numeric" BackgroundColor="White" TextColor="Black"/>
+            </VerticalStackLayout>
+
+            <Grid ColumnDefinitions="*, *" ColumnSpacing="15" Margin="0,20,0,0">
+                <Button Grid.Column="0"
+                        Text="Cancelar"
+                        BackgroundColor="#E0E0E0"
+                        TextColor="Black"
+                        Clicked="OnCancelClicked"/>
+
+                <Button Grid.Column="1"
+                        Text="Guardar"
+                        BackgroundColor="#00C853"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        Clicked="OnSaveClicked"/>
+            </Grid>
+
+            <ActivityIndicator x:Name="loading" IsRunning="False" IsVisible="False" Color="#00C853"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

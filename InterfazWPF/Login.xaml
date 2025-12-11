@@ -1,0 +1,147 @@
+﻿<Window x:Class="InterfazWPF.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfazWPF"
+        mc:Ignorable="d"
+        Title="Iniciar Sesión" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Segoe UI" Background="#F0F2F5"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <!-- ESTILO PARA TEXTBOX (Igual que en Register) -->
+        <Style x:Key="TextBoxStyle" TargetType="TextBox">
+            <Setter Property="Height" Value="38"/>
+            <Setter Property="Padding" Value="10,0,10,0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="0,5,0,15"/>
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBoxBase}">
+                        <Border x:Name="Border" CornerRadius="5" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="False" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Border" Property="BorderBrush" Value="#9CA3AF"/>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="Border" Property="BorderBrush" Value="#3B82F6"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ESTILO PARA PASSWORDBOX (Igual que en Register) -->
+        <Style x:Key="PasswordBoxStyle" TargetType="PasswordBox">
+            <Setter Property="Height" Value="38"/>
+            <Setter Property="Padding" Value="10,0,10,0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="0,5,0,15"/>
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type PasswordBox}">
+                        <Border x:Name="Border" CornerRadius="5" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="False" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Border" Property="BorderBrush" Value="#9CA3AF"/>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="Border" Property="BorderBrush" Value="#3B82F6"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ESTILO BOTÓN PRINCIPAL -->
+        <Style x:Key="PrimaryButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#3B82F6"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#2563EB"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <!-- Tarjeta Central -->
+        <Border Background="White" Width="320" Height="414" CornerRadius="10" Padding="30" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Border.Effect>
+                <DropShadowEffect Color="#000000" Direction="270" ShadowDepth="2" BlurRadius="10" Opacity="0.1"/>
+            </Border.Effect>
+
+            <StackPanel VerticalAlignment="Center">
+
+                <!-- Encabezado -->
+                <TextBlock Text="Bienvenido" 
+                           FontSize="26" 
+                           FontWeight="Bold" 
+                           Foreground="#111827" 
+                           HorizontalAlignment="Center" 
+                           Margin="0,0,0,5"/>
+
+                <TextBlock Text="Inicia sesión para continuar" 
+                           FontSize="14" 
+                           Foreground="#6B7280" 
+                           HorizontalAlignment="Center" 
+                           Margin="0,0,0,25"/>
+
+                <!-- Campos de Entrada -->
+                <TextBlock Text="Usuario / Email:" FontSize="13" Foreground="#374151" Margin="0,0,0,2"/>
+                <TextBox Style="{StaticResource TextBoxStyle}" x:Name="txtUser" ToolTip="Introduce tu usuario"/>
+
+                <Grid>
+                    <TextBlock Text="Contraseña:" FontSize="13" Foreground="#374151" Margin="0,0,0,2" HorizontalAlignment="Left"/>
+                    <TextBlock Text="¿Olvidaste la contraseña?" FontSize="11" Foreground="#3B82F6" Cursor="Hand" HorizontalAlignment="Right" Margin="0,2,0,0"/>
+                </Grid>
+                <PasswordBox Style="{StaticResource PasswordBoxStyle}" x:Name="pbPassword" ToolTip="Introduce tu contraseña"/>
+
+                <!-- Botón Acción -->
+                <Button Content="Entrar" Style="{StaticResource PrimaryButtonStyle}" Margin="0,10,0,0" x:Name="btnLogin"/>
+
+                <!-- Pie de página -->
+                <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="13">
+                    <Run Text="¿No tienes cuenta?" Foreground="#6B7280"/>
+                    <Hyperlink Foreground="#3B82F6" FontWeight="SemiBold" RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="Register.xaml">
+                        Regístrate
+                    </Hyperlink>
+                </TextBlock>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

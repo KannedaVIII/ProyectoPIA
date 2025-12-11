@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InterfazMAUI.MainPage"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid ColumnDefinitions="250, *">
+
+        <Grid Grid.Column="0" RowDefinitions="*, Auto" BackgroundColor="#1E2329">
+
+            <ScrollView Grid.Row="0">
+                <VerticalStackLayout Spacing="15" Padding="20">
+
+                    <Label Text="Biblioteca Juegos" 
+                           TextColor="White" 
+                           FontSize="20" 
+                           FontAttributes="Bold"
+                           Margin="0,0,0,20"/>
+
+                    <Button Text="🔄  Sincronizar API"
+                            Clicked="OnSincronizarClicked"
+                            BackgroundColor="Transparent"
+                            TextColor="White"
+                            HorizontalOptions="Start"
+                            FontSize="14"/>
+
+                    <Button Text="➕  Añadir Juego"
+                            Clicked="OnAddGameClicked"
+                            BackgroundColor="Transparent"
+                            TextColor="White"
+                            HorizontalOptions="Start"
+                            FontSize="14"/>
+
+                    <Button Text="🗑  Eliminar"
+                            Clicked="OnDeleteClicked"
+                            BackgroundColor="Transparent"
+                            TextColor="White"
+                            HorizontalOptions="Start"
+                            FontSize="14"/>
+
+                    <Button Text="✏️  Modificar"
+                            Clicked="OnEditClicked"
+                            BackgroundColor="Transparent"
+                            TextColor="White"
+                            HorizontalOptions="Start"
+                            FontSize="14"/>
+
+                    <Button Text="📂  Migrar CSV a BD"
+                            Clicked="OnMigrarCsvClicked"
+                            TextColor="#FFC107" 
+                            BackgroundColor="Transparent"
+                            HorizontalOptions="Start"
+                            FontSize="14"/>
+                </VerticalStackLayout>
+            </ScrollView>
+
+            <Grid Grid.Row="1" ColumnDefinitions="Auto, *" Padding="20" BackgroundColor="#15191D">
+                <VerticalStackLayout Grid.Column="0">
+                    <Label x:Name="lblNombreUsuario" Text="👤 Invitado" TextColor="White" FontAttributes="Bold"/>
+                    <Label Text="Conectado a API" TextColor="#4CAF50" FontSize="10"/>
+                </VerticalStackLayout>
+
+                <Button Text="❌"
+                        Grid.Column="1" 
+                        HorizontalOptions="End" 
+                        HeightRequest="40" 
+                        WidthRequest="40"
+                        BackgroundColor="#D32F2F"
+                        TextColor="White"
+                        CornerRadius="20"
+                        Clicked="OnLogoutClicked">
+                </Button>
+            </Grid>
+        </Grid>
+
+
+        <Grid Grid.Column="1" RowDefinitions="Auto, Auto, *" Padding="30" BackgroundColor="#F5F5F5">
+
+            <Grid Grid.Row="0" ColumnDefinitions="*, 300" Margin="0,0,0,20">
+                <VerticalStackLayout Grid.Column="0" VerticalOptions="Center">
+                    <Label Text="Listado de Videojuegos" 
+                           FontSize="24" 
+                           FontAttributes="Bold" 
+                           TextColor="#333"/>
+                    <Label Text="Datos obtenidos desde MySQL" 
+                           FontSize="12" 
+                           TextColor="Gray"/>
+                </VerticalStackLayout>
+
+                <SearchBar Grid.Column="1" 
+                           Placeholder="Buscar..." 
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           PlaceholderColor="Gray"
+                           TextChanged="OnSearchBarTextChanged"/>
+            </Grid>
+
+            <Grid Grid.Row="1" ColumnDefinitions="2*, 1.5*, 1.5*, 1.5*, 1*" BackgroundColor="White" Padding="10">
+                <Label Grid.Column="0" Text="Título" FontAttributes="Bold" TextColor="Black"/>
+                <Label Grid.Column="1" Text="Género" FontAttributes="Bold" TextColor="Black"/>
+                <Label Grid.Column="2" Text="Fecha Salida" FontAttributes="Bold" TextColor="Black"/>
+                <Label Grid.Column="3" Text="Equipo" FontAttributes="Bold" TextColor="Black"/>
+                <Label Grid.Column="4" Text="Rating" FontAttributes="Bold" TextColor="Black"/>
+            </Grid>
+
+            <CollectionView x:Name="cvJuegos" 
+                            Grid.Row="2" 
+                            SelectionMode="Single"
+                            SelectionChanged="OnSelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="2*, 1.5*, 1.5*, 1.5*, 1*" Padding="10" BackgroundColor="White">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup Name="CommonStates">
+                                    <VisualState Name="Normal" />
+                                    <VisualState Name="Selected">
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="#E3F2FD" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+
+                            <Label Grid.Column="0" Text="{Binding Title}" TextColor="#333"/>
+                            <Label Grid.Column="1" Text="{Binding Genres}" TextColor="#666"/>
+                            <Label Grid.Column="2" Text="{Binding ReleaseDate, StringFormat='{0:dd/MM/yyyy}'}" TextColor="#666"/>
+                            <Label Grid.Column="3" Text="{Binding Team}" TextColor="#666"/>
+                            <Label Grid.Column="4" Text="{Binding Rating}" TextColor="#666" FontAttributes="Bold"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </Grid>
+    </Grid>
+
+</ContentPage>

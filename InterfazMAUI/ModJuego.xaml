@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InterfazMAUI.ModJuego"
+             Title="Editar Videojuego"
+             BackgroundColor="#F0F0F0">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="15" Padding="20">
+
+            <Label Text="Editar Videojuego" 
+                   FontSize="22" FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   TextColor="Black"/>
+            <Label Text="Título:" FontAttributes="Bold" TextColor="Black" />
+            <Entry x:Name="txtTitulo" 
+                   Placeholder="Título del juego"
+                   IsReadOnly="True" 
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   BackgroundColor="#E0E0E0"/>
+            <Label Text="(El título no se puede editar)" FontSize="10" TextColor="Black"/>
+
+            <Label Text="Género:" FontAttributes="Bold" TextColor="Black" />
+            <Entry x:Name="txtGenero" 
+                   Placeholder="Ej: Plataformas, Acción" 
+                   TextColor="Black" 
+                   PlaceholderColor="Gray"/>
+
+            <Label Text="Fecha de Salida:" FontAttributes="Bold" TextColor="Black" />
+            <DatePicker x:Name="dpFecha" 
+                        Format="MMM dd, yyyy" 
+                        TextColor="Black"/>
+
+            <Label Text="Equipo / Desarrollador:" FontAttributes="Bold" TextColor="Black" />
+            <Entry x:Name="txtEquipo" 
+                   Placeholder="Nombre del equipo" 
+                   TextColor="Black"
+                   PlaceholderColor="Gray"/>
+
+            <Label Text="Rating (0.0 - 5.0):" FontAttributes="Bold" TextColor="Black" />
+            <Entry x:Name="txtRating" 
+                   Keyboard="Numeric" 
+                   Placeholder="0.0" 
+                   TextColor="Black"
+                   PlaceholderColor="Gray"/>
+
+            <ActivityIndicator x:Name="loading" IsRunning="False" IsVisible="False" Color="Blue"/>
+
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="10" Margin="0,20,0,0">
+                <Button Text="Cancelar" 
+                        Grid.Column="0"
+                        BackgroundColor="LightGray" TextColor="Black"
+                        Clicked="OnCancelClicked"/>
+
+                <Button Text="Guardar Cambios" 
+                        Grid.Column="1"
+                        BackgroundColor="#2196F3" TextColor="White"
+                        Clicked="OnSaveClicked"/>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

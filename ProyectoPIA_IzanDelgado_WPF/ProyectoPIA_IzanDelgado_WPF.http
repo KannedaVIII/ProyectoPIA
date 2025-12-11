@@ -1,0 +1,6 @@
+@ProyectoPIA_IzanDelgado_WPF_HostAddress = http://localhost:5237
+
+GET {{ProyectoPIA_IzanDelgado_WPF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

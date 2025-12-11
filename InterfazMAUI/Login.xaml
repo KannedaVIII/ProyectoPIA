@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InterfazMAUI.Login"
+             Title="Login"
+             BackgroundColor="#f0f0f0">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30" VerticalOptions="Center">
+
+            
+
+            <Label Text="Bienvenido"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#333333"/>
+
+            <Entry x:Name="txtUsuarioLogin"
+                   Placeholder="Usuario"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   HeightRequest="50"/>
+
+            <Entry x:Name="txtPasswordLogin"
+                   Placeholder="Contraseña"
+                   IsPassword="True"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   HeightRequest="50"/>
+
+            <Button x:Name="btnLogin"
+                    Text="INICIAR SESIÓN"
+                    BackgroundColor="#007BFF"
+                    TextColor="White"
+                    HeightRequest="50"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    Clicked="BtnLogin_Clicked"/>
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="5" Margin="0,20,0,0">
+                <Label Text="¿Nuevo aquí?" TextColor="Gray"/>
+                <Label Text="Regístrate" 
+                       TextColor="#007BFF" 
+                       FontAttributes="Bold"
+                       TextDecorations="Underline">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_GoToRegister"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+
+            <ActivityIndicator x:Name="loadingIndicator"
+                               IsRunning="False"
+                               IsVisible="False"
+                               Color="#007BFF"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

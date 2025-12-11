@@ -1,0 +1,111 @@
+﻿<Window x:Class="InterfazWPF.AsistenteMCP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfazWPF"
+        mc:Ignorable="d"
+        Title="Asistente IA (Protocolo MCP)" Height="600" Width="450"
+        WindowStartupLocation="CenterScreen"
+        Background="#111827">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+        <DataTemplate x:Key="ChatMessageTemplate">
+            <Grid Margin="0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Padding="10" CornerRadius="10" MaxWidth="300">
+                    <Border.Style>
+                        <Style TargetType="Border">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding EsUsuario}" Value="True">
+                                    <Setter Property="Background" Value="#7C3AED"/>
+                                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                                    <Setter Property="Grid.Column" Value="2"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding EsUsuario}" Value="False">
+                                    <Setter Property="Background" Value="#374151"/>
+                                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                                    <Setter Property="Grid.Column" Value="0"/>
+                                    <Setter Property="Grid.ColumnSpan" Value="2"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Border.Style>
+
+                    <StackPanel>
+                        <TextBlock Text="{Binding Emisor}" FontWeight="Bold" Foreground="#D1D5DB" FontSize="10" Margin="0,0,0,2"/>
+                        <TextBlock Text="{Binding Mensaje}" Foreground="White" TextWrapping="Wrap"/>
+
+                        <TextBlock Text="{Binding InfoHerramienta}" 
+                                   Foreground="#FBBF24" 
+                                   FontSize="11" 
+                                   FontStyle="Italic" 
+                                   Margin="0,5,0,0"
+                                   Visibility="{Binding TieneInfoExtra, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#1F2937" BorderBrush="#374151" BorderThickness="0,0,0,1">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="15,0">
+                <TextBlock Text="🤖" FontSize="20" Margin="0,0,10,0"/>
+                <StackPanel>
+                    <TextBlock Text="Asistente de Biblioteca" Foreground="White" FontWeight="Bold"/>
+                    <TextBlock x:Name="txtEstado" Text="Desconectado" Foreground="#EF4444" FontSize="11"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <ScrollViewer Grid.Row="1" x:Name="scrollChat" Margin="10" VerticalScrollBarVisibility="Auto">
+            <ItemsControl x:Name="listaChat" ItemTemplate="{StaticResource ChatMessageTemplate}"/>
+        </ScrollViewer>
+
+        <Border Grid.Row="2" Background="#1F2937" Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox x:Name="txtMensaje" 
+                         Padding="10" 
+                         Background="#374151" 
+                         Foreground="White" 
+                         BorderThickness="0"
+                         CaretBrush="White"
+                         KeyDown="txtMensaje_KeyDown"
+                         Tag="Escribe tu consulta sobre los juegos..."/>
+
+                <Button x:Name="btnEnviar" Grid.Column="1" Content="Enviar" 
+                        Margin="10,0,0,0" 
+                        Background="#7C3AED" 
+                        Foreground="White" 
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Click="btnEnviar_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

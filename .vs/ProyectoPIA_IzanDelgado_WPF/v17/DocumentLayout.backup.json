@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FF77CC-BCBF-AA18-0222-474C3595D3A9}|..\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\PracticadeIA_IzanDelgado.csproj|c:\\users\\izand\\onedrive\\escritorio\\practicadeia_izandelgado_v0.7\\practicadeia_izandelgado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\izand\\OneDrive\\Escritorio\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
+              "RelativeDocumentMoniker": "..\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
+              "ToolTip": "C:\\Users\\izand\\OneDrive\\Escritorio\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
+              "RelativeToolTip": "..\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAALMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T23:44:31.398Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\InterfazMAUI.csproj;x64
