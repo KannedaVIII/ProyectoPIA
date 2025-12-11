@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{74F9AFC7-D0D4-40C7-997A-355630C65771}|InterfazWPF\\InterfazWPF.csproj|c:\\users\\izand\\onedrive\\escritorio\\proyectopia_izandelgado_wpf_2.0\\interfazwpf\\asistentemcp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F9AFC7-D0D4-40C7-997A-355630C65771}|InterfazWPF\\InterfazWPF.csproj|solutionrelative:interfazwpf\\asistentemcp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0FF77CC-BCBF-AA18-0222-474C3595D3A9}|..\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\PracticadeIA_IzanDelgado.csproj|c:\\users\\izand\\onedrive\\escritorio\\practicadeia_izandelgado_v0.7\\practicadeia_izandelgado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,6 +22,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AsistenteMCP.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazWPF\\AsistenteMCP.xaml.cs",
+              "RelativeDocumentMoniker": "InterfazWPF\\AsistenteMCP.xaml.cs",
+              "ToolTip": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazWPF\\AsistenteMCP.xaml.cs",
+              "RelativeToolTip": "InterfazWPF\\AsistenteMCP.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T21:35:11.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\izand\\OneDrive\\Escritorio\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
               "RelativeDocumentMoniker": "..\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
@@ -25,8 +42,7 @@
               "RelativeToolTip": "..\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAALMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T23:44:31.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T23:44:31.398Z"
             }
           ]
         }

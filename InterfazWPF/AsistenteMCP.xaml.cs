@@ -29,7 +29,7 @@ namespace InterfazWPF
         private StreamWriter _writer;
 
         // --- CONFIGURACIÓN LLM ---
-        private const string ApiKey = "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";
+        private const string ApiKey = "MI API KEY";
         private const string UrlLLM = "https://openrouter.ai/api/v1/chat/completions";
         private const string Modelo = "meta-llama/llama-3.1-8b-instruct";
 
