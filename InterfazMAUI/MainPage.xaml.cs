@@ -279,4 +279,10 @@ public partial class MainPage : ContentPage
     {
         // Lógica opcional
     }
+    // --- 8. ABRIR ASISTENTE IA ---
+    private async void OnAbrirAsistenteClicked(object sender, EventArgs e)
+    {
+        // Navegamos a la página del asistente que creamos anteriormente
+        await Navigation.PushAsync(new AsistenteIA());
+    }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterfazMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a9174487b20aa323f9841460b783752ba43cabb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterfazMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterfazMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

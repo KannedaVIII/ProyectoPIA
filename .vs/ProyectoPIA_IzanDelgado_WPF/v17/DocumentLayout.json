@@ -3,11 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74F9AFC7-D0D4-40C7-997A-355630C65771}|InterfazWPF\\InterfazWPF.csproj|c:\\users\\izand\\onedrive\\escritorio\\proyectopia_izandelgado_wpf_2.0\\interfazwpf\\asistentemcp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74F9AFC7-D0D4-40C7-997A-355630C65771}|InterfazWPF\\InterfazWPF.csproj|solutionrelative:interfazwpf\\asistentemcp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9D23322-E4F6-4ED6-B690-C902D3DCFA7E}|InterfazMAUI\\InterfazMAUI.csproj|c:\\users\\izand\\onedrive\\escritorio\\proyectopia_izandelgado_wpf_2.0\\interfazmaui\\asistenteia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D23322-E4F6-4ED6-B690-C902D3DCFA7E}|InterfazMAUI\\InterfazMAUI.csproj|solutionrelative:interfazmaui\\asistenteia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0FF77CC-BCBF-AA18-0222-474C3595D3A9}|..\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\PracticadeIA_IzanDelgado.csproj|c:\\users\\izand\\onedrive\\escritorio\\practicadeia_izandelgado_v0.7\\practicadeia_izandelgado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9D23322-E4F6-4ED6-B690-C902D3DCFA7E}|InterfazMAUI\\InterfazMAUI.csproj|c:\\users\\izand\\onedrive\\escritorio\\proyectopia_izandelgado_wpf_2.0\\interfazmaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D23322-E4F6-4ED6-B690-C902D3DCFA7E}|InterfazMAUI\\InterfazMAUI.csproj|solutionrelative:interfazmaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D23322-E4F6-4ED6-B690-C902D3DCFA7E}|InterfazMAUI\\InterfazMAUI.csproj|c:\\users\\izand\\onedrive\\escritorio\\proyectopia_izandelgado_wpf_2.0\\interfazmaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B9D23322-E4F6-4ED6-B690-C902D3DCFA7E}|InterfazMAUI\\InterfazMAUI.csproj|solutionrelative:interfazmaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D23322-E4F6-4ED6-B690-C902D3DCFA7E}|InterfazMAUI\\InterfazMAUI.csproj|c:\\users\\izand\\onedrive\\escritorio\\proyectopia_izandelgado_wpf_2.0\\interfazmaui\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D23322-E4F6-4ED6-B690-C902D3DCFA7E}|InterfazMAUI\\InterfazMAUI.csproj|solutionrelative:interfazmaui\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D23322-E4F6-4ED6-B690-C902D3DCFA7E}|InterfazMAUI\\InterfazMAUI.csproj|c:\\users\\izand\\onedrive\\escritorio\\proyectopia_izandelgado_wpf_2.0\\interfazmaui\\asistenteia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B9D23322-E4F6-4ED6-B690-C902D3DCFA7E}|InterfazMAUI\\InterfazMAUI.csproj|solutionrelative:interfazmaui\\asistenteia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,32 +30,72 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AsistenteMCP.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazWPF\\AsistenteMCP.xaml.cs",
-              "RelativeDocumentMoniker": "InterfazWPF\\AsistenteMCP.xaml.cs",
-              "ToolTip": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazWPF\\AsistenteMCP.xaml.cs",
-              "RelativeToolTip": "InterfazWPF\\AsistenteMCP.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T21:35:11.951Z",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazMAUI\\MainPage.xaml",
+              "RelativeDocumentMoniker": "InterfazMAUI\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazMAUI\\MainPage.xaml",
+              "RelativeToolTip": "InterfazMAUI\\MainPage.xaml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwFoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T23:33:44.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\izand\\OneDrive\\Escritorio\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
-              "RelativeDocumentMoniker": "..\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
-              "ToolTip": "C:\\Users\\izand\\OneDrive\\Escritorio\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
-              "RelativeToolTip": "..\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAALMBAAABAAAAAAAAAA==",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazMAUI\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "InterfazMAUI\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazMAUI\\MainPage.xaml.cs",
+              "RelativeToolTip": "InterfazMAUI\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAiwB8BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T23:44:31.398Z"
+              "WhenOpened": "2025-12-11T23:27:57.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazMAUI\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "InterfazMAUI\\Models\\ChatMessage.cs",
+              "ToolTip": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazMAUI\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "InterfazMAUI\\Models\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:26:23.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AsistenteIA.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazMAUI\\AsistenteIA.xaml.cs",
+              "RelativeDocumentMoniker": "InterfazMAUI\\AsistenteIA.xaml.cs",
+              "ToolTip": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazMAUI\\AsistenteIA.xaml.cs",
+              "RelativeToolTip": "InterfazMAUI\\AsistenteIA.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:22:03.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AsistenteIA.xaml",
+              "DocumentMoniker": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazMAUI\\AsistenteIA.xaml",
+              "RelativeDocumentMoniker": "InterfazMAUI\\AsistenteIA.xaml",
+              "ToolTip": "C:\\Users\\izand\\OneDrive\\Escritorio\\ProyectoPIA_IzanDelgado_WPF_2.0\\InterfazMAUI\\AsistenteIA.xaml",
+              "RelativeToolTip": "InterfazMAUI\\AsistenteIA.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T23:21:42.481Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -3166,3 +3166,4 @@ C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\
 C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\obj\Debug\net8.0-android\InterfazMAUI.sourcelink.json

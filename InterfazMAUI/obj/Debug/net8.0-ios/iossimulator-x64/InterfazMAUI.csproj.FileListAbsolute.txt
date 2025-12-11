@@ -940,3 +940,4 @@ C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\
 C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\obj\Debug\net8.0-ios\iossimulator-x64\InterfazMAUI.pdb
 C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\obj\Debug\net8.0-ios\iossimulator-x64\InterfazMAUI.genruntimeconfig.cache
 C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\obj\Debug\net8.0-ios\iossimulator-x64\ref\InterfazMAUI.dll
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\obj\Debug\net8.0-ios\iossimulator-x64\InterfazMAUI.sourcelink.json

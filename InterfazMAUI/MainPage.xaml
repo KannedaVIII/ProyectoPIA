@@ -52,6 +52,14 @@
                             BackgroundColor="Transparent"
                             HorizontalOptions="Start"
                             FontSize="14"/>
+
+                    <Button Text="🤖  Asistente IA"
+                            Clicked="OnAbrirAsistenteClicked"
+                            TextColor="#00E5FF"
+                            BackgroundColor="Transparent"
+                            HorizontalOptions="Start"
+                            FontSize="14"/>
+
                 </VerticalStackLayout>
             </ScrollView>
 
@@ -73,7 +81,6 @@
                 </Button>
             </Grid>
         </Grid>
-
 
         <Grid Grid.Column="1" RowDefinitions="Auto, Auto, *" Padding="30" BackgroundColor="#F5F5F5">
 

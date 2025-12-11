@@ -24,5 +24,18 @@
         "Action": "Start"
       }
     ]
+  },
+  {
+    "Name": "Consola",
+    "Projects": [
+      {
+        "Path": "..\\PracticadeIA_IzanDelgado_V0.7\\PracticadeIA_IzanDelgado\\PracticadeIA_IzanDelgado.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Backend\\Backend.csproj",
+        "Action": "Start"
+      }
+    ]
   }
 ]

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:InterfazMAUI"
+             x:Class="InterfazMAUI.AsistenteIA"
+             Title="Asistente IA"
+             BackgroundColor="#ECE5DD">
+
+    <Grid RowDefinitions="Auto, *, Auto" Padding="10">
+
+        <Frame Grid.Row="0" BackgroundColor="White" Padding="10" CornerRadius="10" Margin="0,0,0,10" HasShadow="True">
+            <Label x:Name="txtEstado" 
+                   Text="Iniciando..." 
+                   TextColor="Gray" 
+                   FontSize="12" 
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <CollectionView Grid.Row="1" 
+                        x:Name="listaChat" 
+                        ItemsUpdatingScrollMode="KeepLastItemInView"
+                        Margin="0,0,0,10">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="5">
+                        <Frame BackgroundColor="{Binding ColorFondo}"
+                               CornerRadius="15"
+                               Padding="10"
+                               HasShadow="False"
+                               HorizontalOptions="{Binding Alineacion}"
+                               MaximumWidthRequest="300">
+
+                            <VerticalStackLayout>
+                                <Label Text="{Binding Emisor}" 
+                                       TextColor="#555" 
+                                       FontSize="10" 
+                                       FontAttributes="Bold" 
+                                       IsVisible="{Binding EsUsuario, Converter={StaticResource InvertedBoolConverter}}"/>
+                                <Label Text="{Binding Mensaje}" 
+                                       TextColor="{Binding ColorTexto}" 
+                                       FontSize="14"/>
+
+                                <Label Text="{Binding InfoHerramienta}" 
+                                       TextColor="DarkOrange" 
+                                       FontSize="10" 
+                                       IsVisible="{Binding TieneInfoExtra}"/>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Grid Grid.Row="2" ColumnDefinitions="*, Auto" ColumnSpacing="10">
+            <Frame Grid.Column="0" CornerRadius="20" Padding="0" HasShadow="False" BorderColor="Gray">
+                <Editor x:Name="txtMensaje" 
+                        Placeholder="Escribe tu mensaje..." 
+                        AutoSize="TextChanges" 
+                        MaximumHeightRequest="100"
+                        Margin="10,0"
+                        VerticalTextAlignment="Center"
+                        Completed="TxtMensaje_Completed"/>
+            </Frame>
+
+            <Button Grid.Column="1" 
+                    x:Name="btnEnviar"
+                    Text="➤" 
+                    FontSize="20"
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    BackgroundColor="#128C7E"
+                    TextColor="White"
+                    Clicked="BtnEnviar_Clicked"/>
+        </Grid>
+    </Grid>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+</ContentPage>

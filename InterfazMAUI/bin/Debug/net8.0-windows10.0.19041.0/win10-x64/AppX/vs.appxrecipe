@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-12-11T14:45:16.590</Modified>
+      <Modified>2025-12-11T23:50:24.396</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-12-08T00:36:00.231</Modified>
+      <Modified>2025-12-11T23:32:41.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\InterfazMAUI.runtimeconfig.json">
       <PackagePath>InterfazMAUI.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\InterfazMAUI.dll">
       <PackagePath>InterfazMAUI.dll</PackagePath>
-      <Modified>2025-12-11T14:45:14.621</Modified>
+      <Modified>2025-12-11T23:50:23.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>InterfazMAUI.exe</PackagePath>
-      <Modified>2025-12-11T14:45:14.688</Modified>
+      <Modified>2025-12-11T23:50:23.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -296,7 +296,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\InterfazMAUI.deps.json">
       <PackagePath>InterfazMAUI.deps.json</PackagePath>
-      <Modified>2025-12-11T14:45:16.075</Modified>
+      <Modified>2025-12-11T23:32:41.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\izand\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
