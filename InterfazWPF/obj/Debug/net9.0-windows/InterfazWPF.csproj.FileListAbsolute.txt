@@ -288,3 +288,4 @@ C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazWPF\o
 C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazWPF\obj\Debug\net9.0-windows\InterfazWPF.pdb
 C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazWPF\obj\Debug\net9.0-windows\InterfazWPF.genruntimeconfig.cache
 C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazWPF\obj\Debug\net9.0-windows\ref\InterfazWPF.dll
+C:\Users\izand\OneDrive\Escritorio\ProyectoPIA_IzanDelgado_WPF_2.0\InterfazWPF\obj\Debug\net9.0-windows\InterfazWPF.sourcelink.json
